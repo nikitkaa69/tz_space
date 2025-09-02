@@ -13,6 +13,7 @@ volume для сохранения данных (-v clickhouse_data:/var/lib/cli
 
 Устанавливаем библиотеку pip install clickhouse-connect requests для вставки данных в сыром виде json.
 После запуска main.py
+
 <img width="488" height="101" alt="image" src="https://github.com/user-attachments/assets/2d3a4235-8405-4bfa-9f4f-c3c7e78a73f6" />
 
  
@@ -26,10 +27,13 @@ ReplacingMergeTree оставляет последнюю версию при с�
 OPTIMIZE чтобы увидеть дедупликацию сразу(чтобы не ждать фоновые слияния и сразу увидеть, как ReplacingMergeTree убрал дубли) 
 
 <img width="974" height="93" alt="image" src="https://github.com/user-attachments/assets/c6648422-33a4-4c29-98db-dc92f8fb4419" />
+
 2 задание
 
 <img width="651" height="386" alt="image" src="https://github.com/user-attachments/assets/abe8531f-a3ba-4cf3-bfff-c3ae92f0b22b" />
+
 3 задание
+
 
 4. Устанавливаем dbt pip install dbt-core dbt-clickhouse
 Инициализируем проект dbt init space_project
